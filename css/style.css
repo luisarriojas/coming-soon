@@ -9,94 +9,6 @@ html, body {
     clear: both;
 }
 
-#wallpaper1 {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    background-image: url("../img/wallpaper1.png");
-    background-repeat: repeat;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#wallpaper2 {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -2;
-    background-image: url("../img/wallpaper2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#logo {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    left: 50%;
-    margin: 30px 0 30px -50px;
-    background-image: url("../img/logo.png");
-    background-repeat: no-repeat;
-}
-
-.message {
-    width: 1000px;
-    height: auto;
-    position: relative;
-    left: 50%;
-    margin: 0 0 30px -500px;
-    padding: 0;
-    text-align: justify;
-    color: white;
-}
-
-.message h1 {
-    text-align: center;
-    margin: 0;
-}
-
-.message h2 {
-    text-align: center;
-    margin: 0;
-}
-
-.message a{
-    color: white;
-}
-
-.column {
-    width: 300px;
-    height: auto;
-    float:left;
-}
-
-#col-center{
-    margin:0 50px;
-}
-
-#social {
-    width: 1000px;
-    height: auto;
-    position: relative;
-    left: 50%;
-    margin: 0 0 30px -500px;
-    padding: 0;
-    text-align: center;
-}
-
-.button {
-    width: 64px;
-    height: 64px;
-    display: inline-block;
-    margin-right: 30px;
-    border-radius: 45px;
-}
-
 #facebook {
     background-image: url("../img/facebook.jpg");
     background-repeat: no-repeat;
@@ -120,4 +32,421 @@ html, body {
 #google {
     background-image: url("../img/google.jpg");
     background-repeat: no-repeat;
+}
+
+@media (min-width: 1050px) {
+    #wallpaper1 {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        background-image: url("../img/wallpaper1.png");
+        background-repeat: repeat;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #wallpaper2 {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -2;
+        background-image: url("../img/wallpaper2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #logo {
+        width: 100px;
+        height: 100px;
+        margin: 30px auto 30px auto;
+        background-image: url("../img/logo.png");
+        background-repeat: no-repeat;
+    }
+
+    .message {
+        width: 1000px;
+        height: auto;
+        margin: 0 auto 30px auto;
+        padding: 0;
+        text-align: justify;
+        color: white;
+    }
+
+    .message h1 {
+        text-align: center;
+        margin: 0;
+        font-size: 2em;
+    }
+
+    .message p {
+        font-size: 1em;
+    }
+
+    .message h2 {
+        text-align: center;
+        margin: 0 0 10px 0;
+        font-size: 1.5em;
+    }
+
+    .message a {
+        color: white;
+    }
+
+    .column {
+        width: 300px;
+        height: auto;
+        float: left;
+        text-align: left;
+    }
+
+    #col-center {
+        margin: 0 50px;
+    }
+
+    .column ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .column li {
+        margin-bottom: 10px;
+    }
+
+    #social {
+        width: 1000px;
+        height: auto;
+        margin: 0 auto 30px auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    #social a {
+        text-decoration: none;
+    }
+
+    .button {
+        width: 64px;
+        height: 64px;
+        display: inline-block;
+        margin-right: 30px;
+        border-radius: 45px;
+    }
+}
+
+@media (min-width: 780px) and (max-width: 1049px) {
+    #wallpaper1 {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        background-image: url("../img/wallpaper1.png");
+        background-repeat: repeat;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #wallpaper2 {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -2;
+        background-image: url("../img/wallpaper2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #logo {
+        width: 100px;
+        height: 100px;
+        margin: 30px auto 30px auto;
+        background-image: url("../img/logo.png");
+        background-repeat: no-repeat;
+    }
+
+    .message {
+        width: 720px;
+        height: auto;
+        margin: 0 auto 30px auto;
+        padding: 0;
+        text-align: justify;
+        color: white;
+    }
+
+    .message h1 {
+        text-align: center;
+        margin: 0;
+        font-size: 2em;
+    }
+
+    .message p {
+        font-size: 1em;
+    }
+
+    .message h2 {
+        text-align: center;
+        margin: 0 0 10px 0;
+        font-size: 1.5em;
+    }
+
+    .message a {
+        color: white;
+    }
+
+    .column {
+        width: 226px;
+        height: auto;
+        float: left;
+        text-align: left;
+    }
+
+    #col-center {
+        margin: 0 20px;
+    }
+
+    .column ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .column li {
+        margin-bottom: 10px;
+    }
+
+    #social {
+        width: 720px;
+        height: auto;
+        margin: 0 auto 30px auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    #social a {
+        text-decoration: none;
+    }
+
+    .button {
+        width: 64px;
+        height: 64px;
+        display: inline-block;
+        margin-right: 30px;
+        border-radius: 45px;
+    }
+}
+
+@media (min-width: 590px) and (max-width: 779px) {
+    #wallpaper1 {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        background-image: url("../img/wallpaper1.png");
+        background-repeat: repeat;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #wallpaper2 {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -2;
+        background-image: url("../img/wallpaper2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #logo {
+        width: 100px;
+        height: 100px;
+        margin: 30px auto 30px auto;
+        background-image: url("../img/logo.png");
+        background-repeat: no-repeat;
+    }
+
+    .message {
+        width: 540px;
+        height: auto;
+        margin: 0 auto 30px auto;
+        padding: 0;
+        text-align: justify;
+        color: white;
+    }
+
+    .message h1 {
+        text-align: center;
+        margin: 0;
+        font-size: 2em;
+    }
+
+    .message p {
+        font-size: 1em;
+    }
+
+    .message h2 {
+        text-align: center;
+        margin: 0 0 10px 0;
+        font-size: 1.5em;
+    }
+
+    .message a {
+        color: white;
+    }
+
+    .column {
+        width: 166px;
+        height: auto;
+        float: left;
+        text-align: left;
+    }
+
+    #col-center {
+        margin: 0 20px;
+    }
+
+    .column ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .column li {
+        margin-bottom: 10px;
+    }
+
+    #social {
+        width: 540px;
+        height: auto;
+        margin: 0 auto 30px auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    #social a {
+        text-decoration: none;
+    }
+
+    .button {
+        width: 64px;
+        height: 64px;
+        display: inline-block;
+        margin-right: 30px;
+        border-radius: 45px;
+    }
+}
+
+@media (max-width: 589px) {
+    #wallpaper1 {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        background-image: url("../img/wallpaper1.png");
+        background-repeat: repeat;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #wallpaper2 {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -2;
+        background-image: url("../img/wallpaper2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #logo {
+        width: 100px;
+        height: 100px;
+        margin: 30px auto 30px auto;
+        background-image: url("../img/logo.png");
+        background-repeat: no-repeat;
+    }
+
+    .message {
+        height: auto;
+        margin: 0 0 30px 0;
+        padding: 0 10px;
+        text-align: justify;
+        color: white;
+    }
+
+    .message h1 {
+        text-align: center;
+        margin: 0;
+        font-size: 2em;
+    }
+
+    .message p {
+        font-size: 1em;
+    }
+
+    .message h2 {
+        text-align: center;
+        margin: 0 0 10px 0;
+        font-size: 1.5em;
+    }
+
+    .message a {
+        color: white;
+    }
+
+    .column {
+        width:100%;
+        height: auto;
+        float: left;
+    }
+
+    #col-center {
+        margin: 10px 0;
+    }
+
+    .column ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .column li {
+        margin-bottom: 10px;
+    }
+
+    #social {
+        height: auto;
+        margin: 0 0 30px 0;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    #social a {
+        text-decoration: none;
+    }
+
+    .button {
+        width: 64px;
+        height: 64px;
+        display: inline-block;
+        margin: 0 30px 30px 0;
+        border-radius: 45px;
+    }
 }
