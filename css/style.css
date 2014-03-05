@@ -45,12 +45,12 @@ html, body {
 }
 
 #message {
-    width: 900px;
+    width: 1000px;
     height: auto;
     position: relative;
     left: 50%;
-    margin: 0 0 0 -500px;
-    padding:40px 50px 30px 50px;
+    margin: 0 0 30px -500px;
+    padding:0;
     text-align: justify;
     color:white;
 }
@@ -61,18 +61,19 @@ h1 {
 }
 
 #social{
-    width: 900px;
+    width: 1000px;
     height: auto;
     position: relative;
     left: 50%;
     margin: 0 0 30px -500px;
-    padding:0 50px 0 50px;
+    padding:0;
+    text-align: center;
 }
 
 .button{
     width:64px;
     height:64px;
-    float:left;
+    display: inline-block;
     margin-right: 30px;
     border-radius: 45px;
 }
