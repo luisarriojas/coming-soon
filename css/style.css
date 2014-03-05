@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+}
+
+#wallpaper1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-image: url("../img/wallpaper1.png");
+    background-repeat: repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#wallpaper2 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -2;
+    background-image: url("../img/wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
